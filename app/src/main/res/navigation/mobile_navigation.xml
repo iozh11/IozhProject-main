@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.iozhproject.ui.frontend.home.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_common"
+        android:name="com.example.iozhproject.ui.frontend.common.CommonFragment"
+        android:label="@string/menu_common_hedgehog"
+        tools:layout="@layout/fragment_common_hedgehog" />
+
+    <fragment
+        android:id="@+id/nav_african"
+        android:name="com.example.iozhproject.ui.frontend.african.AfricanFragment"
+        android:label="@string/menu_african_hedgehog"
+        tools:layout="@layout/fragment_african_hedgehog" />
+
+    <fragment
+        android:id="@+id/nav_hears_hedgehog"
+        android:name="com.example.iozhproject.ui.frontend.longeared.LongearedFragment"
+        android:label="@string/menu_hears_hedgehog"
+        tools:layout="@layout/fragment_longeared" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.iozhproject.ui.frontend.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.iozhproject.ui.frontend.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.iozhproject.ui.frontend.register.RegisterFragment"
+        android:label="@string/menu_register"
+        tools:layout="@layout/fragment_register" />
+</navigation>
